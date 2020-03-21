@@ -36,7 +36,7 @@ setEventCallback(eventRegex.commandsRegex.start, eventRegex.commandsRegexNoName.
   if (msgTools.isAuthorized(msg) < 0) {
     msgTools.sendUnauthorizedMessage(bot, msg);
   } else {
-    msgTools.sendMessage(bot, msg, 'You should know the commands already. Happy mirroring.', -1);
+    msgTools.sendMessage(bot, msg, 'I am alive, thank you for using me (Made with love by Shivam). Happy mirroring.', -1);
   }
 });
 
